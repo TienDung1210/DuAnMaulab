@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/ImgBook"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/bookicon" />
+
+        <TextView
+
+            android:id="@+id/tvTenSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/ImgBook"
+            android:text="Tên Sách :"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/tvDetailTenSachBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/tvTenSach"
+            android:text="haha" />
+
+        <TextView
+            android:id="@+id/tvSL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTenSach"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/ImgBook"
+            android:text="Số Lượng : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDetailSLBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvDetailTenSachBill"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/tvSL"
+            android:text="haha" />
+
+        <TextView
+            android:id="@+id/tvGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSL"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/ImgBook"
+            android:text="Giá : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDetailMoneyBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvDetailSLBill"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/tvGia"
+            android:text="haha" />
+
+        <ImageView
+            android:id="@+id/ImgDeleteBill"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_close" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

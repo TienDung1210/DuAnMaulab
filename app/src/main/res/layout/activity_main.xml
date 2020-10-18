@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".acitivity.MainActivity">
+
+    <ImageView
+        android:id="@+id/ImgPeopleuser"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="ImgPeopleuser"
+        android:src="@drawable/emthree" />
+
+    <TextView
+        android:id="@+id/TvNguoidung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImgPeopleuser"
+        android:text="Người Dùng"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ImgTheloai"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="48dp"
+        android:layout_toRightOf="@id/ImgPeopleuser"
+        android:onClick="ImgTheloai"
+        android:src="@drawable/cateicon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImgTheloai"
+        android:layout_marginLeft="64dp"
+        android:layout_toRightOf="@id/TvNguoidung"
+        android:text="Thể Loại"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ImgBook"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/ImgPeopleuser"
+        android:layout_marginTop="48dp"
+        android:onClick="ImgBook"
+        android:src="@drawable/bookicon" />
+
+    <TextView
+        android:id="@+id/Tvsach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImgBook"
+        android:layout_marginLeft="24dp"
+        android:text="Sách"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/Imghoadon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/ImgTheloai"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_toRightOf="@id/ImgBook"
+        android:onClick="ImgHoaDon"
+        android:src="@drawable/hdicon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Imghoadon"
+        android:layout_marginLeft="86dp"
+        android:layout_toRightOf="@id/Tvsach"
+        android:text="Hóa Đơn"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ImgBookbuy"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/ImgBook"
+        android:layout_marginTop="48dp"
+        android:onClick="ImgTop10"
+        android:src="@drawable/money_icon" />
+
+    <TextView
+        android:id="@+id/TvSachban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImgBookbuy"
+        android:layout_marginLeft="11dp"
+        android:text="Sách Bán"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ImgThongke"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/Imghoadon"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_toRightOf="@id/ImgBookbuy"
+        android:onClick="ImgThongKe"
+        android:src="@drawable/thongke" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImgThongke"
+        android:layout_marginLeft="68dp"
+        android:layout_toRightOf="@id/TvSachban"
+        android:text="Thống kê"
+        android:textStyle="bold" />
+
+</RelativeLayout>

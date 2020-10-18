@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.duanmaulab1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".acitivity.Top10BookActivity" />
+        <activity android:name=".acitivity.ChangePassActivity" />
+        <activity android:name=".acitivity.AddBillActivity" />
+        <activity android:name=".acitivity.BillActivity" />
+        <activity android:name=".acitivity.AddBookActivivy" />
+        <activity android:name=".acitivity.BookActivity" />
+        <activity android:name=".acitivity.AddUserActivity" />
+        <activity android:name=".acitivity.CategoryActivity" />
+        <activity android:name=".acitivity.UserActivity" />
+        <activity android:name=".acitivity.LoginActivivty" />
+        <activity android:name=".acitivity.AddCategoryActivity" />
+        <activity android:name=".acitivity.MainActivity" />
+        <activity android:name=".acitivity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
